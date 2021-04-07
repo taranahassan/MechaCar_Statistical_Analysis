@@ -6,7 +6,7 @@ AutosRUs' has a new prototype named MechaCar.  The manufacturing team has come a
 
 ## Linear Regress MPG
 
-For the multiple linear regression model, the[!MechaCar_mpg.csv](https://github.com/taranahassan/MechaCar_Statistical_Analysis/blob/main/MechaCar_mpg.csv) dataset was used.  It includes 50 mpg test results of prototype MechaCars.  The prototypes were produced using multiple specifications focused on design to find the impact each has on the performance of a vehicle.  Metrics were collected on the length and weight of the vehicles, angle of the spoiler, the drivetrain and the ground clearance for each vehicle.<br>
+For the multiple linear regression model, the [MechaCar_mpg.csv](https://github.com/taranahassan/MechaCar_Statistical_Analysis/blob/main/MechaCar_mpg.csv) dataset was used.  It includes 50 mpg test results of MechaCars prototype.  The prototypes were produced using multiple specifications focused on design to find the impact each has on the performance of a vehicle.  Metrics were collected on the length and weight of the vehicles, angle of the spoiler, the drivetrain and the ground clearance for each vehicle.<br>
 
 ***Results of linear regression function:*** <br>
 ![linear_regression_model](https://user-images.githubusercontent.com/75437852/113901894-4d736580-979d-11eb-811d-ade97a5a0d95.PNG)
