@@ -33,6 +33,7 @@ Based on the design specification for MechaCars suspension coil, the variance sh
 <br>
 Reviewing the statistics for all production lots; the average variance is 62.29 which is within limit.  However, since the number is closer to 100, this could mean one or more lot(s) may not be consistent in their manufacturing process.
 <br>
+<br>
 ***Summary table providing the statistics for each production lot and their respective suspension coil's PSI:***<br>
 ![lot_summary](https://user-images.githubusercontent.com/75437852/113927996-32fcb480-97bc-11eb-8eb3-910003492039.PNG)
 <br>
@@ -41,22 +42,25 @@ Reviewing the statistics individually for each lot, we can identify that lots 1 
 
 ## T-Tests on Suspension Coils
 
-T-Tests have been completed for all 3 manufacturing lots individually and as a group.  This is to identify any statistical differences from the population mean of 1500 PSI.
+T-Tests have been completed for all 3 manufacturing lots; individually and as a group.  This is to identify any statistical differences of the population mean of 1500 PSI and the manufacturing lots.
 
 ***T-Test on all manufacturing lots to determine PSI consistency:***<br>
 ![all_lots](https://user-images.githubusercontent.com/75437852/114089576-4ffcba80-9884-11eb-8ac2-92ab8039c375.PNG)
 <br>
 Based on the results, the p-value is 0.06028 which is higher than the signaficance level and indicates there is not enough evidence to reject the null hypothesis and therefore statistically not significant.  Looking at the t-value of -1.8391 shows the variance between the population mean and all the manufacturing lots which states that both means are similar. 
 <br>
+<br>
 ***T-Test on manufacturing lot 1:***<br>
 ![lot_1](https://user-images.githubusercontent.com/75437852/114089741-83d7e000-9884-11eb-8f37-eaf97fe63244.PNG)
 <br>
-The t-value for lot 1 is at par therefore both the population mean and lot 1 mean are the same.  P-value is significantly higher than the significance level of 0.05, therefore statistically not significant meaning not enough evidence to reject the null hypothesis.
+The t-value for lot 1 is at par therefore both the population mean and lot 1 mean are the same.  P-value is significantly higher than the significance level of 0.05, therefore statistically not significant and not enough evidence to reject the null hypothesis.
+<br>
 <br>
 ***T-Test on manufacturing lot 2:***<br>
 ![lot_2](https://user-images.githubusercontent.com/75437852/114089958-cd282f80-9884-11eb-81b9-0e5886d10b2c.PNG)
 <br>
 Similar case with lot 2; the t-value variance of 0.51745 identifies the population mean and lot 2 mean are borderline simiar.  The p-value is higher than the significance level, again not stating enough evidence to reject the null hypothesis and is statistically non significant.
+<br>
 <br>
 ***T-Test on manufacturing lot 3:***<br>
 ![lot_3](https://user-images.githubusercontent.com/75437852/114090002-db764b80-9884-11eb-82af-2e4f0a5f7e3a.PNG)
