@@ -78,7 +78,7 @@ This study is to identify if the design specifications of a vehicle are statisti
 Study design:
   - From each dataset, specific metrics required are the vehicle length, weight and ground clearance every year.  Once the data has been accumulated, both null and alternative hypothesis are determined.
   - Hypotheses:<br>
-        * Null hypothesis:  vehicle length, weight and ground clearance does not impact the safety of a vehicle
+        * Null hypothesis:  vehicle length, weight and ground clearance does not impact the safety of a vehicle<br>
         * Alternative hypthesis:  vehicle length, weight and ground clearance does impact the safety of a vehicle
   - Need to create a multiple linear regression to see if design specifications are statistically significant to the safety of the vehicle - if the specifications evolved year over year and if that made an impact on the safety rating.
   - For data, the safety rating would be the dependant variable and the vehicle length, weight and ground clearance would be the independant variable.
