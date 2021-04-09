@@ -68,3 +68,17 @@ Similar case with lot 2; the t-value variance of 0.51745 identifies the populati
 The last manufacturing lot 3 has a higher negative t-value of -2.0916 (still considered statistically similar to the population mean).  However the p-value of 0.04168 is lower than the signficance level providing us statistical significance and evidence to reject the null hypothesis.
 
 
+## Study Design: MechaCar vs Competition
+
+Below is a statistical study that can be done to compare the performance of the MechaCar vehicles to the performance of vehicles of a competitor. <br>
+This study is to identify what desing specifications of a vehicle are statistically significant in attributing to the safety performance of a vehicle.<br>
+<br>
+For a consumer, one of the key features to influence their decision would be safety rating.  List of safety ratings are published annually by the [National Highway Traffic Safety Association](https://www.nhtsa.gov/ratings) and [Insurance Institute for Highway Safety](https://www.iihs.org).  By selecting the top 3 safety rated car brands within each  class category, we would require the last 3 years of data for each car type.  This study can only be effective by comparing a competitor's vehicle within the same class categories, i.e sedans, SUV or pick up trucks.<br>
+
+Study design:
+  - From each car dataset, specific metrics required are the vehicle length, weight and ground clearance.  Once the data has been accumulated, both null and alternative hypothesis are determined.
+  - Hypotheses:
+        * Null hypothesis:  vehicle length, weight and ground clearance does not impact the safety of a vehicle
+        * Alternative hypthesis:  vehicle length, weight and ground clearance does impact the safety of a vehicle
+  - Create a multiple linear regression to see if design specifications are statistically significant to the safety of the vehicle - if the specifications evolved year over year and if that made an impact on the safety rating.
+  - For data, the safety rating would be the dependant variable and the vehicle length, weight and ground clearance would be the independant variable.
